@@ -7,5 +7,9 @@ edition = "2021"
 name = "translucency"
 path = "src/translucency.rs"
 
+[[bin]]
+name = "well"
+path = "src/well.rs"
+
 [dependencies]
 macroquad = "0.4.13"
